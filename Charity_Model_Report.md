@@ -6,7 +6,7 @@ The purpose of this analysis is to develop a deep learning model that can predic
 
 **Data Preprocessing**
 
-* **Target Variable(s):** The target variable for our model is the "IS_SUCCESSFUL" column, which indicates whether a charity organization is successful or not.
+* **Target Variable(s):** The target variable for our model is the "IS_SUCCESSFUL" column, which indicates whether a charity organization is successful or not.  
 * **Feature Variable(s):** The feature variables for our model are the following columns:
    * EIN
    * NAME
@@ -17,14 +17,14 @@ The purpose of this analysis is to develop a deep learning model that can predic
    * ORGANIZATION
    * STATUS
    * INCOME_AMT
-   * SPECIAL_CONSIDERATIONS
+   * SPECIAL_CONSIDERATIONS  
 * **Removed Variable(s):** The following columns were removed from the input data because they are neither targets nor features:
    * EIN
 
 **Compiling, Training, and Evaluating the Model**
 
-* **Neural Network Architecture:** Our neural network model consists of 5 layers with 64, 32, 16, and 8 neurons for the hidden layers and only 1 neuron for the output layer. The "relu" activation function was chosen for the hidden layers as it is computationally efficient, introduces sparsity, and is less prone to the vanishing gradient problem. The "sigmoid" function was employed in the output layer to facilitate the modeling of probabilities, which is crucial in our binary classification problem.
-* **Model Performance:** The resulting model from the third attempt to optimize our original, achieved a target predictive accuracy of 80.1% on the test data, surpassing our goal of 75%.
+* **Neural Network Architecture:** Our neural network model consists of 5 layers with 64, 32, 16, and 8 neurons for the hidden layers and only 1 neuron for the output layer. The "relu" activation function was chosen for the hidden layers as it is computationally efficient, introduces sparsity, and is less prone to the vanishing gradient problem. The "sigmoid" function was employed in the output layer to facilitate the modeling of probabilities, which is crucial in our binary classification problem.  
+* **Model Performance:** The resulting model from the third attempt to optimize our original, achieved a target predictive accuracy of 80.1% on the test data, surpassing our goal of 75%.  
 * **Attempts to Increase Model Performance:** As our initial model scored a 73.2% in predictive accuracy, to increase model performance, we tried the following:
    * Changing the "cutoff" amount for binning values in chosen columns ("name", "application_type", "classification", "ask_amt")
    * Removing columns ("status", "special_considerations")
