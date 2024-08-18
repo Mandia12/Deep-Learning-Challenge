@@ -43,5 +43,3 @@ In summary, our deep learning model was able to achieve a moderate level of accu
 **Recommendation**
 
 Based on our analysis, we recommend using a random forest model to solve this classification problem. Random forest models are well-suited to handling complex datasets with multiple feature variables and can often achieve high levels of accuracy. Additionally, random forest models are relatively easy to interpret and can provide valuable insights into the relationships between the feature variables and the target variable.
-
-I hope this template helps! Let me know if you have any questions or need further assistance.
