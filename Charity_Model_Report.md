@@ -36,6 +36,14 @@ The purpose of this analysis is to develop a deep learning model that can predic
    * Retaining "name" column
    * Adding a "validation_split" parameter to the .fit() function
 
+**Accuracy Plots**
+* **Original Model**
+  
+![Original Plot](Images/Accuracy_plot.png)
+* **Optimized Model**
+
+![Final Plot](Images/Optimization_plot_3.png)
+
 **Summary**
 
 In summary, our deep learning model was able to achieve a moderate level of accuracy in predicting whether a charity organization is successful or not. However, there is still room for improvement. One potential approach to improve the model's performance is to use a different type of model, such as a random forest or gradient boosting model, which may be better suited to handling the complex relationships between the feature variables. Additionally, collecting more data or using techniques such as data augmentation may also help to improve the model's performance.
